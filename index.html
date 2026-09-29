@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WORLD SIMULATION</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="game-container">
+    <header>
+      <h1>⚔️ WORLD SIMULATION</h1>
+      <div id="status-bar">در حال بارگذاری...</div>
+    </header>
+
+    <div id="story-panel">
+      <div id="narration">
+        <p>به WORLD SIMULATION خوش آمدی.</p>
+        <p>برای شروع، روی «شروع بازی جدید» کلیک کن یا اگر قبلاً بازی کرده‌ای، «ادامه بده» را بزن.</p>
+      </div>
+    </div>
+
+    <div id="choices-panel">
+      <div id="suggestions"></div>
+      <div id="custom-action-wrapper">
+        <input type="text" id="custom-action" placeholder="یا اقدام دلخواه بنویس..." autocomplete="off">
+        <button id="send-btn">ارسال</button>
+      </div>
+    </div>
+
+    <div id="state-panel"></div>
+
+    <footer>
+      <button id="new-game-btn">شروع بازی جدید</button>
+      <button id="reset-btn">ریست کامل</button>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
